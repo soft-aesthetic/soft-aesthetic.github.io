@@ -1,0 +1,103 @@
+html {
+  font-size: 0.625rem;
+  /* 10px equivalent thanks to default of 16px */ }
+  html * {
+    box-sizing: border-box; }
+
+body {
+  background: #fff;
+  color: #414141;
+  font-family: "Source Code Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2rem;
+  /* 16px equivalent */
+  font-weight: 400; }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 400; }
+
+  hr {
+    margin: 4rem 0;
+    border: none;
+    border-top: 1px solid #d5d5d5;
+    background: none;
+    height: 0; }
+
+h2 {
+  font-family: "Select Mono";
+}
+
+
+a {
+  border-bottom: .2rem solid transparent;
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+  transition: .3s ease all; }
+
+a:hover {
+  transition: .1s ease all;
+  border-bottom-color: inherit; }
+
+  /* form fields */
+  input, textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 2px solid #e5e5e5;
+    padding: .8rem; }
+    input:focus, textarea:focus {
+      outline: none;
+      border-color: pink;
+      z-index: 100; }
+
+  button, input[type="button"], input[type="submit"],
+  .btn-link {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #fff;
+    border: .2rem solid;
+    color: #000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: inherit;
+    font-weight: 600;
+    padding: .8rem;
+    transition: .3s ease all; }
+    button.primary, input[type="button"].primary, input[type="submit"].primary,
+    .btn-link.primary {
+      color: #2328ff; }
+    button:hover, input[type="button"]:hover, input[type="submit"]:hover,
+    .btn-link:hover {
+      color: #fff;
+      background: #000;
+      border-color: #000; }
+    button:active, input[type="button"]:active, input[type="submit"]:active,
+    .btn-link:active {
+      color: #fff;
+      background: #000;
+      transform: translateY(2px);
+      transition: 0s ease all; }
+    button:disabled, input[type="button"]:disabled, input[type="submit"]:disabled,
+    .btn-link:disabled {
+      color: #bbb;
+      background: #f0f0f0;
+      border-color: #f0f0f0; }
+      button:disabled:hover, input[type="button"]:disabled:hover, input[type="submit"]:disabled:hover,
+      .btn-link:disabled:hover {
+        cursor: default; }
+    button:focus, input[type="button"]:focus, input[type="submit"]:focus,
+    .btn-link:focus {
+      outline: 2px solid pink;
+      z-index: 100; }
+
+  .btn-link:not([href]) {
+    background: transparent;
+    border-color: transparent;
+    color: #9c9b9b; }
+
+  body {
+    padding: 4rem; }
+
+  main {
+    margin: 2rem 0; }
