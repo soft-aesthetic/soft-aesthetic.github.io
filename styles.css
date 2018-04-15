@@ -122,6 +122,7 @@ a:hover {
 
 
 .title-emoji {
+  display: block;
   font-size: 1.4em;
 }
 
@@ -168,6 +169,33 @@ a:hover {
       position: relative;
       width: 250%;
     }
+
+
+.theme-page-soft-era {
+  background: #f9f5f5;
+  color: #c3adad;
+}
+  .theme-page-soft-era h1 {
+    color: #414141;
+  }
+    .theme-page-soft-era a {
+      color: #a29acb;
+      /* color: #25b7b8; */
+    }
+    .theme-page-soft-era .btn-link {
+      /* color: #a29acb; */
+      color: #25b7b8;
+      border-radius: 1rem;
+    }
+    .theme-page-soft-era .btn-link:hover {
+      color: #fff;
+    }
+
+.theme-preview {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
 
 
     @media only screen and (min-width: 50em) {
