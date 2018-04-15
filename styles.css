@@ -1,13 +1,20 @@
+@font-face {
+  font-family: "Select Mono";
+  src: url('assets/fonts/SelectMono-Italic.woff') format('woff');
+}
+
 html {
   font-size: 0.625rem;
-  /* 10px equivalent thanks to default of 16px */ }
+  /* 10px equivalent thanks to default of 16px */
+}
   html * {
-    box-sizing: border-box; }
+    box-sizing: border-box;
+  }
 
 body {
   background: #fff;
   color: #414141;
-  font-family: "Source Code Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Source Code Pro', monospace;
   font-size: 1.6rem;
   /* 16px equivalent */
   font-weight: 400;
@@ -20,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-  font-family: "Select Mono";
+  font-family: "Select Mono", cursive;
   margin-bottom: 3.6rem;
 }
 
