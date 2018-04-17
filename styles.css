@@ -111,6 +111,13 @@ a:hover {
     border-color: transparent;
     color: #9c9b9b; }
 
+
+
+
+  header {
+    margin-bottom: 4rem;
+  }
+
   main {
     margin: 2rem auto;
     max-width: 110rem;
@@ -198,12 +205,21 @@ a:hover {
 }
 
 
+
+
     @media only screen and (min-width: 50em) {
 
 
       body {
         font-size: 2rem;
-        padding: 8rem;
+        padding: 8rem 10rem;
+      }
+
+      /* column alignment on larger screens */
+      header, footer, main > section {
+        max-width: 66%;
+        margin-left: auto;
+        margin-right: auto;
       }
 
       hr {
@@ -211,7 +227,7 @@ a:hover {
       }
 
       header {
-        max-width: 66%;
+        margin-bottom: 6rem;
       }
 
       .theme-link-description {
