@@ -28,6 +28,8 @@ h1, h2, h3, h4, h5, h6 {
 
 h2 {
   font-family: "Select Mono", cursive;
+  font-size: 3rem;
+  line-height: 1.25;
   margin-bottom: 3.6rem;
 }
 
@@ -127,6 +129,10 @@ a:hover {
     /* margin: 6rem auto; */
   }
 
+.description {
+  margin-bottom: 6rem;
+  margin-top: 6rem;
+}
 
 .title-emoji {
   display: block;
@@ -180,7 +186,8 @@ a:hover {
 
 .theme-page-soft-era {
   background: #f9f5f5;
-  color: #c3adad;
+  /* color: #c3adad; */
+  color: #ba989c;
 }
   .theme-page-soft-era h1 {
     color: #414141;
