@@ -3,7 +3,7 @@
 "soft aesthetic" is a collection of themes for development and creation environments.
 
 
-- 💘 **live website: https://soft-aesthetic.github.io/**
+- 💘 **live website: [soft-aesthetic.club](http://soft-aesthetic.club/)**
 
 - soft aesthetic github org: https://github.com/soft-aesthetic
 
