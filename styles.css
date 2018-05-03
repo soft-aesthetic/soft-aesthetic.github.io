@@ -34,16 +34,20 @@ h2 {
 }
 
 hr {
-  margin: 6rem 0;
   border: none;
-  border-top: .6rem solid #eae5f0;
+  border-top: .2rem solid #eae5f0;
+  border-bottom: .2rem solid #eae5f0;
+  border-radius: 200rem;
   background: none;
-  height: 0; }
+  height: 0;
+  margin: 2em 0;
+}
 
 
 a {
   border-bottom: .2rem solid transparent;
-  color: #000;
+  /* color: #e4bcbf; */
+  color: #e6c2c5;
   font-weight: 600;
   text-decoration: none;
   transition: .3s ease all; }
@@ -71,8 +75,14 @@ a:hover {
     -moz-appearance: none;
     appearance: none;
     background: #fff;
-    border: .2rem solid;
-    color: #000;
+    background: #e4bcbf;
+    border: .2rem solid #e4bcbf;
+    border-radius: .4rem;
+    color: #e4bcbf;
+    color: #fff;
+    text-shadow:
+      0 .1rem 0 #bf9296,
+      .1rem .2rem .1rem #d0a2a6;
     cursor: pointer;
     display: inline-block;
     font-family: inherit;
@@ -87,12 +97,16 @@ a:hover {
     button:hover, input[type="button"]:hover, input[type="submit"]:hover,
     .btn-link:hover {
       color: #fff;
-      background: #000;
-      border-color: #000; }
+      text-shadow:
+        0 .1rem 0 #c676d0,
+        .1rem .2rem .1rem #d184db;
+      background: #e4bcbf;
+      background: #dd8fe7;
+      border-color: #dd8fe7; }
     button:active, input[type="button"]:active, input[type="submit"]:active,
     .btn-link:active {
       color: #fff;
-      background: #000;
+      background: #dd8fe7;
       transform: translateY(.4rem);
       transition: 0s ease all; }
     button:disabled, input[type="button"]:disabled, input[type="submit"]:disabled,
@@ -146,7 +160,8 @@ a:hover {
 }
     .theme-link::after {
       box-sizing: border-box;
-      background: rgba(0, 0, 0, 1);
+      /* background: rgba(0, 0, 0, 1); */
+      background: #dd8fe7;
       bottom: 0;
       color: #fff;
       content: "view theme";
