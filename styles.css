@@ -213,7 +213,8 @@ a:hover {
     }
     .theme-page-soft-era .btn-link {
       /* color: #a29acb; */
-      color: #25b7b8;
+/*       color: #25b7b8; */
+      color: #fff;
       border-radius: 1rem;
     }
     .theme-page-soft-era .btn-link:hover {
