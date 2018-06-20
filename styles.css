@@ -45,7 +45,7 @@ hr {
 
 
 a {
-  border-bottom: .2rem solid transparent;
+  border-bottom: .2rem solid #e6c2c5;
   /* color: #e4bcbf; */
   color: #e6c2c5;
   font-weight: 600;
@@ -53,7 +53,8 @@ a {
   transition: .3s ease all; }
 
 a:hover {
-  border-bottom-color: inherit;
+  color: #EEAABE;
+  border-bottom-color: #EEAABE;
   transition: .1s ease all;
 }
 
@@ -77,7 +78,7 @@ a:hover {
     background: #fff;
     background: #e4bcbf;
     border: .2rem solid #e4bcbf;
-    border-radius: .4rem;
+    border-radius: .25rem;
     color: #e4bcbf;
     color: #fff;
     text-shadow:
@@ -98,15 +99,15 @@ a:hover {
     .btn-link:hover {
       color: #fff;
       text-shadow:
-        0 .1rem 0 #c676d0,
-        .1rem .2rem .1rem #d184db;
+        0 .1rem 0 #cf95a6
+        .1rem .2rem .1rem #cf95a6;
       background: #e4bcbf;
-      background: #dd8fe7;
-      border-color: #dd8fe7; }
+      background: #EEAABE;
+      border-color: #EEAABE; }
     button:active, input[type="button"]:active, input[type="submit"]:active,
     .btn-link:active {
       color: #fff;
-      background: #dd8fe7;
+      background: #EEAABE;
       transform: translateY(.4rem);
       transition: 0s ease all; }
     button:disabled, input[type="button"]:disabled, input[type="submit"]:disabled,
@@ -161,7 +162,7 @@ a:hover {
     .theme-link::after {
       box-sizing: border-box;
       /* background: rgba(0, 0, 0, 1); */
-      background: #dd8fe7;
+      background: #EEAABE;
       bottom: 0;
       color: #fff;
       content: "view theme";
@@ -207,15 +208,20 @@ a:hover {
   .theme-page-soft-era h1 {
     color: #414141;
   }
-    .theme-page-soft-era a {
+    .theme-page-soft-era a:not(.btn-link) {
       color: #a29acb;
+      border-color: #a29acb;
       /* color: #25b7b8; */
+    }
+    .theme-page-soft-era a:not(.btn-link):hover {
+      color: #414141;
+      border-color: #414141;
     }
     .theme-page-soft-era .btn-link {
       /* color: #a29acb; */
 /*       color: #25b7b8; */
       color: #fff;
-      border-radius: 1rem;
+      /* border-radius: 10rem; */
     }
     .theme-page-soft-era .btn-link:hover {
       color: #fff;
