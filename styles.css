@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Select Mono";
-  src: url('assets/fonts/SelectMono-Italic.woff') format('woff');
+  src: url('/assets/fonts/SelectMono-Italic.woff') format('woff');
 }
 
 html {
